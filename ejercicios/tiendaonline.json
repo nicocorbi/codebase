@@ -1,0 +1,61 @@
+{
+    "productos": 
+    [
+        {
+            "camisetas": "",
+            "precio(en euros)": 20,
+            "cantidad en stock": ""
+        },
+        {
+            "pantalones": "",
+            "precio(en euros)": 15,
+            "cantidad en stock": ""
+        },
+        {
+             "sudaderas":"",
+             "precio(en euros)":30,
+             "cantidad en stock":"" 
+        }
+    ],
+
+
+     "secciones":[
+    {
+      "ropahombre":1,
+      "cantidadproductos":"pepe",
+      "mensaje":"hola"
+
+    },
+    {
+      "ropamujer":2,
+      "cantidadproductos":"maria",
+      "mensaje":"hey"
+    }
+  ],
+    "usuarios":[
+    {
+      "id":1,
+      "nombre":"pepe",
+      "mensaje":"hola"
+
+    },
+    {
+      "id":2,
+      "nombre":"maria",
+      "mensaje":"hey"
+    }
+  ],
+    "pedidos":[
+    {
+      "producto":1,
+      "cantidadcomprada":"pepe",
+      "preciofinal":"hola"
+
+    },
+    {
+      "producto":2,
+      "cantidadcomprada":"maria",
+      "preciofinal":"hey"
+    }
+  ]
+}
