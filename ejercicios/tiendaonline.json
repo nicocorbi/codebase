@@ -2,60 +2,63 @@
     "productos": 
     [
         {
-            "camisetas": "",
+            "camisetas": "nike",
             "precio(en euros)": 20,
-            "cantidad en stock": ""
+            "cantidad en stock": 100
         },
         {
-            "pantalones": "",
+            "pantalones": "nike",
             "precio(en euros)": 15,
-            "cantidad en stock": ""
+            "cantidad en stock": 100
         },
         {
-             "sudaderas":"",
+             "sudaderas":"adidas",
              "precio(en euros)":30,
-             "cantidad en stock":"" 
+             "cantidad en stock":100 
         }
     ],
 
 
      "secciones":[
     {
-      "ropahombre":1,
-      "cantidadproductos":"pepe",
-      "mensaje":"hola"
+      "ropadecolor":"colores frios",
+      "cantidadproductos":150
+      
 
     },
     {
-      "ropamujer":2,
-      "cantidadproductos":"maria",
-      "mensaje":"hey"
+      "ropadecolor":"colores palidos",
+      "cantidadproductos":150
+      
     }
   ],
     "usuarios":[
     {
       "id":1,
       "nombre":"pepe",
-      "mensaje":"hola"
+      "mensaje":"quiero comprar 2 camisetas"
 
     },
     {
       "id":2,
       "nombre":"maria",
-      "mensaje":"hey"
+      "mensaje":"esta buscando un pantalon"
     }
   ],
     "pedidos":[
     {
-      "producto":1,
-      "cantidadcomprada":"pepe",
-      "preciofinal":"hola"
+      "producto":"camisetas",
+      "cantidadcomprada":2,
+      "preciofinal":40,
+      "comprador":"pepe"
+      
 
     },
     {
-      "producto":2,
-      "cantidadcomprada":"maria",
-      "preciofinal":"hey"
+      "producto":"pantalon",
+      "cantidadcomprada":1,
+      "preciofinal":15,
+      "comprador":"maria"
     }
   ]
 }
