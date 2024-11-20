@@ -14,6 +14,7 @@ API - interfaz de progamacion de aplicacion - comando/cli/texto
            - app(java,python)
 
 ## HTTP
+
  python3
  import request 
  respuesta = requests.get("http://google.com")
@@ -21,4 +22,19 @@ API - interfaz de progamacion de aplicacion - comando/cli/texto
  respuesta.  (tab)
  respuesta.text
  exit()
+ para hacer una peticion get necesitamos una URL y el verbo HTTP
+ body = clave
+
+ ### DATOS
+
+ en js es "fetch"
+ headers = clave - para que el servidor sepa interpretar lo que estamos mandando
+ URL - /user/login
+ content-type tipo de dato que queremos enviar
+ cuerpo - datos mas especificos que estamos mandando(Json,XML)
+
+
+
+
+
          
