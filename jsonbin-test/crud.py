@@ -1,8 +1,14 @@
+import os
 import requests
+from dotenv import load_dotenv
+load_dotenv()
 
-bin_id ="67458cbbacd3cb34a8af0bc0"
-XMasterKey = "$2a$10$w5ey/n1H8M6JGQ32tfSu3ubMi0V8h2YZedNvBSnLni.9.EacCVj7."
-XAccessKey = "$2a$10$KZ4.0TXrOwe.aigZNPIgqObco0HECBjlXz2Pu8.ILxrRAjU5l4x42"
+XMasterKey = os.getenv("X_MASTER_KEY")
+XAccessKey = os.getenv("X_ACCESS_KEY")
+bin_id = os.getenv("BIN_ID")
+
+print(XMasterKey)
+
 url_root ="https://api.jsonbin.io/v3"
 route = f"/b/{bin_id}"
 headers = {
